@@ -32,9 +32,9 @@ _BAZEL_JAVA_LAUNCHER_VERSION = "0.8.1"
 
 _KOTLIN_CURRENT_COMPILER_RELEASE = {
     "urls": [
-        "https://github.com/JetBrains/kotlin/releases/download/v1.2.70/kotlin-compiler-1.2.70.zip",
+        "https://github.com/JetBrains/kotlin/releases/download/v{version}/kotlin-compiler-{version}.zip".format("1.3.21"),
     ],
-    "sha256": "a23a40a3505e78563100b9e6cfd7f535fbf6593b69a5c470800fbafbeccf8434",
+    "sha256": "fc7a3f60786591fa5a87f41f4dacd4568054a4e662dfb7de48ab67b9d4ae5fae",
 }
 
 def github_archive(name, repo, commit, build_file_content = None):
